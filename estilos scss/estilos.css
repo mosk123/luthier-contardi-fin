@@ -1,0 +1,291 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*------HEADER------*/
+.navemenu {
+  background-image: url(../img/nosotrosa.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: start;
+  background-attachment: fixed;
+  width: 100%;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .navemenu {
+    background-position: top center;
+  }
+}
+
+.contmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3rem;
+}
+
+.contenedorImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*-----NAV-PRODUCTOS------*/
+.navemenuProd {
+  background-image: url(../img/IMG_E0210.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: start;
+  background-attachment: fixed;
+  width: 100%;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .navemenuProd {
+    background-position: top center;
+  }
+}
+
+.contmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3rem;
+}
+
+.contenedorImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*--------CONTENIDOS--------*/
+.fondo {
+  background-color: #212529;
+}
+
+/*
+.contenedorImg {
+    background-image: url(../img/IMG_3760.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 0rem 0rem;
+    width: 100%;
+    height: 36rem;
+    display: grid;
+    justify-content: start;
+    @media (min-width: 1040px) {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px -560px;;
+        border-style: solid;
+        border-color: lightgray;
+        border-width: 0rem 0rem 0.1rem;
+        width: 100%;
+        height: auto;   
+    }
+}
+*/
+.contenedorTexto {
+  padding-top: 8rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 360px) {
+  .contenedorTexto {
+    padding-left: 3rem;
+  }
+}
+
+.contenedorBoton {
+  width: 100%;
+  padding-top: 3rem;
+  padding-right: 4rem;
+}
+
+@media (min-width: 360px) {
+  .contenedorBoton {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+  }
+}
+
+.materiales {
+  background-image: url(../img/IMG_E5265.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: start;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 360px) {
+  h2 {
+    padding-left: 3.5rem;
+  }
+}
+
+.contenedorBotonContacto {
+  padding-bottom: 15rem;
+}
+
+/*---------FORMULARIO------*/
+.contenedorFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.contenedorFormulario h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.contenedorFormulario p {
+  text-align: center;
+  width: 70%;
+}
+
+.lead {
+  width: 100%;
+}
+
+.formularioNuevo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 360px) {
+  .formularioNuevo {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+.formulario {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 4rem;
+}
+
+@media (min-width: 360px) {
+  .formulario {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+/*------PRODUCTOS-------*/
+.tituloProductos {
+  padding-bottom: 0rem;
+}
+
+@media (min-width: 360px) {
+  .tituloProductos {
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+}
+
+.contenidoProd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenedorProd2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/*-----FOOTER-------*/
+.contenedorFooter {
+  position: relative;
+  margin: 0 auto;
+  background-color: #212529;
+  width: 100%;
+  height: 9rem;
+}
+/*# sourceMappingURL=estilos.css.map */

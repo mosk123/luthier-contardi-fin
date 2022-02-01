@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap-icons-1.7.2/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css-bt/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./estilos scss/estilos.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark navemenuProd">
+        <div class="container-fluid contmenu">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/Logo PNG 0.png" width="195rem">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fs-6" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fs-6" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fs-6" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fs-6" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <main class="mainNosotros bg-dark">
+        <div class="contenedorFormulario text-light">
+          <h2>Completa el formulario</h2>
+          <p class="lead text-white-50">
+            Una vez recibido el correo con tu solicitud, te enviaremos una confirmacion por tu contacto.
+            Todos los datos aqui ingresados, se mantienen ocultos y no son compartidos con otras compañias. Gracias por elegirnos. 
+          </p>
+        </div>
+        <div class="formularioNuevo">
+          <div class="cols-md-6 col-lg-8 col-sm-6">
+            <h4 class="mb-3 row-cols-sm-auto text-light">Datos de contacto</h4>
+            <form class="needs-validation" novalidate="">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label text-white-50">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder=""
+                    value=""
+                    required=""
+                  />
+                </div>
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label text-white-50">Apellido</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder=""
+                    value=""
+                    required=""
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="email" class="form-label text-white-50">Email <span class="text-muted"></span></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder=""
+                  />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label text-white-50">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="col-12">
+              <button class="btn btn-warning" type="submit">Enviar</button>
+              <hr class="my-4" />
+       </form>
+          </div>
+      </main>
+      <footer>
+        <div class="contenedorFooter bg-dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 nav-dark bg-dark">
+          <li data-aos="zoom-in" data-aos-delay="50" data-aos-duration="4000" class="nav-link"><a href="https://facebook.com"><i class="bi bi-facebook text-secondary fs-2"></i></a></li>
+          <li data-aos="zoom-in" data-aos-delay="50" data-aos-duration="4000" class="nav-link"><a href="https://instagram.com"><i class="bi bi-instagram text-secondary fs-2"></i></a></li>
+          <li data-aos="zoom-in" data-aos-delay="50" data-aos-duration="4000" class="nav-link"><a href="https://twitter.com"><i class="bi bi-twitter text-secondary fs-2"></i></a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Company, Inc</p>
+        </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous">
+    </script>
+    <script src="js-bt/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+		</script>
+  </body>
+</html>
