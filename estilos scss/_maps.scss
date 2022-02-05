@@ -1,0 +1,18 @@
+/*---MAPS---*/
+$mapRs:(facebook:#2e2ec5,instagram:#f02112e3,twitter:#3cbaec);
+@each $rs, $color in $mapRs {
+    .#{$rs}--lnk{
+        color: $color;
+    }
+}
+/*----MAP--GET----*/
+
+$estilo:(
+    padtop: 5rem
+    pbot: 5rem
+);
+
+.contenedorVideo{
+   padding-top: map-get($estilo, padtop);
+   padding-bottom: map-get($estilo, pbot);
+}

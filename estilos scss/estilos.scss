@@ -1,99 +1,29 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+@import "header";
+@import "footer";
+@import "maps";
+@import "extend";
+@import "mixin";
 
 * {
     padding: 0px;
     margin: 0px;
 }
 
-/*------HEADER------*/
-
-.navemenu {
-    background-image: url(../img/nosotrosa.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: start;
-    background-attachment: fixed;
-    width: 100%;
-    height: 35rem;
-    display: flex;
-    align-items: flex-start;
-    @media (min-width: 360px) and (max-width: 768px) {
-        background-position: top center;
-    }
-}
-.contmenu{
-    display: flex;
-    flex-direction: column;
-    padding-top: 3rem;
-
-}
-
-.contenedorImg{
-    display: flex;
-    flex-direction: column;
-}
-
-
-/*-----NAV-PRODUCTOS------*/
-
-.navemenuProd {
-    background-image: url(../img/IMG_E0210.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: start;
-    background-attachment: fixed;
-    width: 100%;
-    height: 25rem;
-    display: flex;
-    align-items: flex-start;
-    @media (min-width: 360px) and (max-width: 768px) {
-        background-position: top center;
-    }
-}
-
-.contmenu{
-    display: flex;
-    flex-direction: column;
-    padding-top: 3rem;
-
-}
-
-.contenedorImg{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-/*--------CONTENIDOS--------*/
-
 .fondo{
-    background-color: #212529;
+    background-color: $color-fondo
 }
 
-/*
-.contenedorImg {
-    background-image: url(../img/IMG_3760.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 0rem 0rem;
-    width: 100%;
-    height: 36rem;
-    display: grid;
-    justify-content: start;
-    @media (min-width: 1040px) {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0px -560px;;
-        border-style: solid;
-        border-color: lightgray;
-        border-width: 0rem 0rem 0.1rem;
-        width: 100%;
-        height: auto;   
-    }
+/*-----INDEX-----*/
+
+.contenedorImg{
+    display: flex;
+    flex-direction: column;
+    padding-right: 0rem;
 }
-*/
+
+
 .contenedorTexto {
     padding-top: 8rem;
     width: 100%;
@@ -102,6 +32,9 @@
     @media (min-width: 360px) {
         padding-left: 3rem;
     }       
+}
+.texto1{
+    padding-right: 5rem;
 }
 
 .contenedorBoton {   
@@ -132,6 +65,7 @@
     h2{
         padding-top: 10rem;
         padding-bottom: 5rem;
+        padding-right: 2rem;
     @media (min-width: 360px) {
         padding-left: 3.5rem;    
 }
@@ -156,6 +90,7 @@
     h2{
         display: flex;
         padding-bottom: 2rem;
+        padding-right: 4rem;
     }
     p{
         text-align: center;
@@ -199,24 +134,9 @@
 }
 }
 
-.contenidoProd{
+/*-----CUSTOMSHOP-----*/
+.contenedorVideo{
     display: flex;
-    flex-wrap: wrap;
-}
-
-.contenedorProd2{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-/*-----FOOTER-------*/
-
-.contenedorFooter {
-    position: relative;
-    margin: 0 auto;
-    background-color: #212529;
-    width: 100%;
-    height: 9rem;
-
+    flex-direction: column;
+    align-items: center;
 }

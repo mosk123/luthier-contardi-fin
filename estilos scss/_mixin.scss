@@ -1,0 +1,13 @@
+@mixin parrafo {
+    font-size: 1.2rem;
+    color:rgba(255,255,255,.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+.parrafoP{
+    @include parrafo;
+}
+

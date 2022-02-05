@@ -1,0 +1,10 @@
+/*---EXTEND----*/
+
+.contenidoProd{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorProd2{
+    @extend .contenidoProd
+}
