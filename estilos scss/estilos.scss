@@ -11,6 +11,7 @@
     margin: 0px;
 }
 
+
 .fondo{
     background-color: $color-fondo
 }
@@ -139,4 +140,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 360px) and (max-width: 768px){
+        video{
+            display: none;
+        }
+    }
+
+}
+
+/*------ERROR404-----*/
+
+.pageConst {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: -6rem;
+
 }

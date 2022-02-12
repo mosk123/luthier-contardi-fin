@@ -87,7 +87,7 @@
 
 /*---MAPS---*/
 .facebook--lnk {
-  color: #2e2ec5;
+  color: #645aec;
 }
 
 .instagram--lnk {
@@ -99,6 +99,11 @@
 }
 
 /*----MAP--GET----*/
+.contenedorVideo {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 /*---EXTEND----*/
 .contenidoProd, .contenedorProd2 {
   display: -webkit-box;
@@ -299,7 +304,28 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .contenedorVideo video {
+    display: none;
+  }
+}
+
+/*------ERROR404-----*/
+.pageConst {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: -6rem;
 }
 /*# sourceMappingURL=estilos.css.map */
