@@ -87,11 +87,11 @@
 
 /*---MAPS---*/
 .facebook--lnk {
-  color: #3a2fca;
+  color: #1e58d6;
 }
 
 .instagram--lnk {
-  color: #f02112e3;
+  color: rgba(228, 66, 37, 0.89);
 }
 
 .twitter--lnk {
@@ -292,6 +292,51 @@ h2 {
     padding-left: 1rem;
     padding-top: 2rem;
   }
+}
+
+.contenidoProd, .contenedorProd2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "img1 img2 img3";
+  padding-bottom: 1rem;
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.contenedorProd2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "img4 img5 img6";
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
 }
 
 /*-----CUSTOMSHOP-----*/

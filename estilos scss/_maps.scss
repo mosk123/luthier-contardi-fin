@@ -1,5 +1,5 @@
 /*---MAPS---*/
-$mapRs:(facebook:hsl(244, 62%, 49%),instagram:#f02112e3,twitter:#3cbaec);
+$mapRs:(facebook:#1e58d6,instagram:hsla(9, 78%, 52%, 0.89),twitter:#3cbaec);
 @each $rs, $color in $mapRs {
     .#{$rs}--lnk{
         color: $color;
